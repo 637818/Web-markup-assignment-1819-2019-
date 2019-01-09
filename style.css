@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css?family=0swald');
+a{
+	text-decoration: none;
+	color:#FFFFFF;
+}
+/*Navigation*/
+nav
+{
+	margin: auto;
+	margin-top: -1.5em;
+	margin-bottom:-0.2em;
+	height: 70px;
+	color:#FFFFFF;
+	background-color:#707070;
+	line-height: 70px;
+
+	width:118.3%;
+
+
+}
+		#Navigation li{
+		display:inline;
+		text-align: center;
+		word-spacing:3em;
+		font-size:2em;
+  	text-transform: uppercase;
+	}
+	/*header h1 for every page */
+h1
+{
+	background-image:url("../img/companylogoBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin: auto;
+	height: 250px;
+	width:140%;
+	font-family:'oswald'sans-serif;
+	font-size: 4em;
+	color:#FFFFFF;
+	line-height: 250px;
+	text-transform: uppercase;
+}
+/*header h3 is for every page*/
+
+h3{
+	font-size: 5em;
+	color: white;
+	text-align: center;
+	height:150px;
+	width:118.3%;
+	margin: auto;
+	background-color: #2699FB;
+	line-height: 150px;
+  text-transform: uppercase;
+
+}
+/*section is for every pages*/
+
+body
+{
+ width: 960px;
+ margin :auto;
+ text-align: center;
+}
+section
+{
+	text-align: center;
+}
+	.background
+	{
+		position:fixed;
+		right:0;
+		bottom:0;
+		min-width: 100%;
+		height: 100%;
+		margin:auto;
+		background-size: 100% 100%;
+		z-index:-1;
+	}
+	/*footer for the every page */
+	.footer
+	{
+		height: 70px;
+		width:118.3%;
+		text-align: center;
+		color:#FFFFFF;
+		background-color:#000000;
+		margin: auto;
+		line-height:70px;
+		font-size:2em;
+	}
+	/*img flex is for images in the index page */
+	.imgFlex{
+		background-color:#000000;
+		height: 30em;
+		width: 118.3%;
+		text-align: center;
+		margin: auto;
+	}
+
+/*h5 is for product catalogue in product page */
+
+/*img flex2 is for images in the product page */
+
+
+.photos
+{
+width: 100%;
+margin: auto;
+text-align: center;
+display: grid;
+grid-template-columns: auto;
+}
+/*bigger frame*/
+.picGrid
+{
+	background-color: #FFFFFF;
+  text-align: center;
+  width: 118.3%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.picGrid img
+{
+	margin-right: 3px;
+  text-align: center;
+	margin-top: 7px;
+	margin-bottom: -29px;
+	height: 250px;
+	width: 32.3%;
+	margin-left: 3px;
+}
+
+
+/*contact page*/
+/*form is the form in the contact page*/
+form{
+	background-color:#FFFFFF;
+	text-align:left;
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding-top:2em;
+	margin-bottom:2em;
+  border-top:4em;
+	width:118.3%;
+	height:810px;
+	text-transform: lowercase;
+}
+/*.input is for the contact page */
+	/*footer3 is footer for contact page  */
+
+.Myinfo
+{
+	margin: auto;
+	font-size: 2em;
+	width:95%;
+	text-align: left;
+	color: #707070;
+}
+
+/*fieldset is for the contact page */
+fieldset{
+	margin-top: 2em;
+	margin-bottom: 1em;
+	margin-left: 4%;
+	margin-right: 4%;
+	width:93%;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+
+/*submit is for contact page */
+input{
+	width:100%;
+	height:70px;
+	margin-right:2px;
+	font-size: 1.5em;
+	color: #AAAAAA;
+	padding-left: 8px;
+}
+
+
+
+select
+{
+height: 30px;
+line-height: 30px;
+width: 70%;
+margin-left: 140px;
+font-size: 1.5em;
+color: #AAAAAA;
+padding-left: 8px;
+}
+
+label
+{
+  margin: auto;
+	margin-left:9px;
+  text-align: right;
+	padding-right: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 1.5em;
+	color: #AAAAAA;
+	padding-left: 8px;
+}
+
+
+
+textarea{
+	color:#AAAAAA;
+	width:100%;
+	height: 170px;
+	margin-right:2em;
+	padding-right:43.8px;
+	text-align:left;
+	margin: auto;
+	font-size: 2em;
+  padding-left: 8px;
+}
+
+.submitbutton{
+	text-align: center;
+	margin: auto;
+	width:93.5%;
+	background-color:#2699FB;
+	margin-left:1.66em;
+  height: 70px;
+  font-size: 2em;
+  color: #FFFFFF;
+	margin-top: 10px;
+}
+
+.footerContact
+{
+	height: 70px;
+	width:118.3%;
+	text-align: center;
+	color:#FFFFFF;
+	background-color:#000000;
+	margin: auto;
+	line-height:70px;
+	font-size:2em;
+	margin-top: -32px;
+}
+
+/*media quary*/
+
+/*tablet*/
+@media screen and (max-width: 961px)
+ {
+
+ /*contact*/
+ .background
+ {
+	 display: none;
+ }
+
+/*product*/
+{
+	display: grid;
+}
+
+.picGrid
+{
+	width: 39%;
+}
+/*index*/
+.B, .C
+{
+	display: none;
+}
+
+.img6
+{
+	display: none;
+}
+
+}
+
+
+/*mobile*/
+@media screen and (max-width: 361px)
+{
+.background
+{
+	display: none;
+}
+
+.B, .C, .D, .M
+{
+	display: none;
+}
+
+#Navigation li
+{
+	display: none;
+}
+
+nav
+{
+	background-color: #707070;
+	width: 100%;
+	color: #FFFFFF;
+}
+
+body
+{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.photos
+{
+width: 100%;
+margin: auto;
+text-align: center;
+display: column;
+grid-template-columns: auto;
+}
+/*bigger frame*/
+.picGrid
+{
+	background-color: #FFFFFF;
+  text-align: center;
+}
+
+.picGrid img
+{
+	margin-right: 3px;
+  text-align: center;
+	margin-top: 7px;
+	margin-bottom: -29px;
+	height: 250px;
+	width: 32.3%;
+	margin-left: 3px;
+}
+
+}
